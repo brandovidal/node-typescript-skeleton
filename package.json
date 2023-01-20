@@ -1,7 +1,7 @@
 {
   "name": "node-typescript-skeleton",
   "version": "1.0.0",
-  "description": "Node project skeleton using Typescript, ESLint",
+  "description": "Node project skeleton using Typescript, ESLint, TS-Standard and Nodemon",
   "main": "index.js",
   "repository": "git@github.com:brandovidal/node-typescript-skeleton.git",
   "author": "Brando Vidal",

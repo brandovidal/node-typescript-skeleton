@@ -1,0 +1,10 @@
+{
+  "parserOptions": {
+    "project": "./tsconfig.json",
+    "sourceType": "module"
+  },
+  "rules": {
+    "@typescript-eslint/strict-boolean-expressions": "warn"
+  },
+  "extends": ["plugin:@typescript-eslint/recommended", "standard-ts"]
+}

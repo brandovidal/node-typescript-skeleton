@@ -1,0 +1,10 @@
+node_modules/
+
+build/
+
+__test__/
+e2e/
+
+**/*.config.ts
+**/*.js
+**/*.d.ts

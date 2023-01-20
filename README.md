@@ -8,9 +8,10 @@ Inside of your project, you'll see the following folders and files:
 
 ```css
 /
+├── __test__/
+├── build/
 ├── src/
 │   └── index.ts
-├── build/
 ├── .eslintignore
 ├── .eslintrc.json
 ├── .gitignore
@@ -29,23 +30,29 @@ Inside of your project, you'll see the following folders and files:
 - ⚡ Install dependencies
 
 ```bash
-yarn install
+npm install
 ```
 
 - ⚒️ Run development App
 
 ```bash
-yarn dev
+npm run dev
 ```
 
 - 🚀 Start App
 
 ```bash
-yarn start
+npm run start
 ```
 
 - 🔦 Run Lint
 
 ```bash
-yarn lint
+npm run lint
+```
+
+- 👾 Run test
+
+```bash
+npm run test
 ```

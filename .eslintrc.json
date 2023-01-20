@@ -6,5 +6,8 @@
   "rules": {
     "@typescript-eslint/strict-boolean-expressions": "warn"
   },
-  "extends": ["plugin:@typescript-eslint/recommended", "standard-ts"]
+  "extends": [
+    "plugin:@typescript-eslint/recommended",
+    "eslint-config-standard-with-typescript"
+  ]
 }

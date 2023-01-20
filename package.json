@@ -12,7 +12,8 @@
     "start": "node build/index.js",
     "build": "tsc",
     "lint": "eslint src/",
-    "lint-fix": "eslint src/ --fix"
+    "lint-fix": "eslint src/ --fix",
+    "prepare": "husky install"
   },
   "dependencies": {
     "typescript": "4.9.4"
@@ -21,9 +22,10 @@
     "@types/node": "18.11.18",
     "@typescript-eslint/eslint-plugin": "5.48.2",
     "eslint": "8.32.0",
-    "eslint-config-standard-ts": "21.0.0",
+    "eslint-config-standard-with-typescript": "31.0.0",
+    "husky": "8.0.3",
+    "lint-staged": "13.1.0",
     "nodemon": "2.0.20",
-    "ts-node": "10.9.1",
-    "ts-standard": "12.0.2"
+    "ts-node": "10.9.1"
   }
 }
